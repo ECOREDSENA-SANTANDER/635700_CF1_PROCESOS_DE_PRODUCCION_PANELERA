@@ -183,10 +183,10 @@
               img(src='@/assets/curso/temas/T3/img-11-2.svg', alt='Texto que describa la imagen')
     
     
-    p.mb-4 Se detalla a continuación el proceso de extracción y la forma de aplicación del mucílago:
+    p.mb-4 Se detalla a continuación el proceso de extracción y la forma de aplicación del musílago:
     
     figure.mb-0
-      img(src='@/assets/curso/temas/T3/img-12-2.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/T3/1.svg', alt='Texto que describa la imagen')
     
     Separador
     
