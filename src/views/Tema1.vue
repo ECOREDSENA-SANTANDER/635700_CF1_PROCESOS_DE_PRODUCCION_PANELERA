@@ -7,7 +7,7 @@
           span 1
         h1 Requerimientos técnicos y normativos
 
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-0
         .bloque-texto-g__img(data-aos='fade-right')(
           :style="{'background-image': `url(${require('@/assets/curso/temas/T1/img-1.png')})`}"
         )
@@ -19,18 +19,17 @@
       #t_1_1.titulo-segundo.color-acento-contenido.mb-5
         h2 Interpretación de documentos
       
-      .tarjeta.tarjeta-amarillo.p-4.mb-5
-        .row.align-items-center
-          .col-md-9.mb-3.mb-md-0
+      .tarjeta.tarjeta-amarillo.p-4.mb-0
+        .row.align-items-center.justify-content-center
+          .col-lg-9.mb-3.mb-md-0
             p A nivel nacional, el sector panelero se caracteriza por ser uno de los más importantes de la producción agropecuaria; es por esta razón, se ha convertido en el eje central de la economía campesina y de los pequeños y grandes productores. El proceso de fabricación está altamente ligado a las costumbres regionales, por lo que se considera uno de los alimentos principales en la canasta familiar, práctica que ha perdurado por generaciones.
       
             p La tradición en la cocción de la panela, se mantiene vigente con el paso del tiempo. No obstante, desde la entrada en vigencia de la resolución 779 de 2006, considerada como la principal normativa del contexto productivo, este sector se enfrenta a nuevas políticas cómo: introducir tecnología de punta, habituar las prácticas técnicas, mejoras en la infraestructura y aspectos físicos en los trapiches; sin descuidar, desde luego, la preocupación por la preservación del bienestar de los actores del proceso.
       
             p.mb-0 De acuerdo con lo anterior, es importante analizar el marco legal para el sistema de producción panelera, identificando y entendiendo las políticas de estricto cumplimiento para la obtención de la panela en óptimas condiciones para la venta y consumo, sin dejar de lado las buenas prácticas de manufactura donde prime el bienestar del trabajador.
-      
-          .col-md-3(data-aos='fade-left')
+          .col-lg-3.col-md-3.col-7(data-aos='fade-left')
             figure
-              img(src='@/assets/curso/temas/T1/img-1.svg', alt='Campesino')
+              img.mb-0(src='@/assets/curso/temas/T1/img-1.svg', alt='Campesino')
       
       Separador
       
@@ -40,7 +39,7 @@
       p.mb-5 A continuación, se presentan las normas que rigen la producción panelera en Colombia. Consulte y conozca cada norma presentada, haciendo clic sobre los enlaces propuestos:
       
       
-      PasosA.color-acento-contenido.mb-3
+      PasosA.color-acento-contenido.mb-0
         .row
           .col.mb-4.mb-md-0
             h4 Resolución Número 2546 de 2004
@@ -94,11 +93,11 @@
             figure
               img(src='@/assets/curso/temas/T1/img-2.svg')
           .col.mb-4.mb-md-0.text-start
-            h4 Resolución número 229 de 2012
+            h4 Resolución número 154 de 2020
             p La normativa en mención, fija un precio de referencia para la liquidación de la cuota de fomento panelero para el segundo semestre de 2020.
             .row
               .col-lg-8.col-md-10.col-12.text-start
-                a.anexo.mb-4.mb-lg-2.mr-3-custom(href="http://www.avancejuridico.com/actualidad/documentosoficiales/2012/48500/r_ma_0229_2012.html" target="_blank")
+                a.anexo.mb-4.mb-lg-2.mr-3-custom(href="https://www.minagricultura.gov.co/Normatividad/Resoluciones/RESOLUCI%C3%93N%20154-2020%20PRECIO%20DE%20REFERENCIA%20CUOTA%20DE%20FOMENTO%20PANELERO.pdf" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
@@ -144,7 +143,7 @@
       
       p.mb-5 En el siguiente espacio, se dan a conocer las normas que rigen a la industria panelera en Colombia. Para profundizar en la línea de estudio o investigación, consulte los enlaces dispuestos a continuación:
       
-      PasosA.color-acento-contenido.mb-3
+      PasosA.color-acento-contenido.mb-0
         .row
           .col.mb-4.mb-md-0
             h4 Ley 2005 del 02 de diciembre de 2019

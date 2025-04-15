@@ -12,7 +12,7 @@
     
     p El video que se presenta a continuación, ilustra, a nivel general, la normativa de los procesos paneleros en Colombia. Observe con atención:
     
-    .row.mt-5.mb-5
+    .row.mt-4.mb-0
       .col-12
         figure
           .video
@@ -27,7 +27,7 @@
     
     p Estos son cada uno de los momentos que conforman este proceso:
     
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-0
       .py-3.py-md-4(titulo="Corte y aponte de la caña ")
           .row.align-items-center.justify-content-around
             .col-md-4.mb-4.mb-md-0
@@ -83,8 +83,8 @@
       h2 Residuos
     
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4(data-aos='fade-right')
+      .row.m-0.align-items-center.justify-content-center
+        .col-lg-4.col-6(data-aos='fade-right')
           figure
             img(src='@/assets/curso/temas/T3/img-5.svg', style='width:190px; margin: auto')
         .col-lg-8
@@ -97,11 +97,11 @@
     
     p Las etapas de clarificación, evaporación y concentración, se llevan a cabo en la hornilla y horno, que suministran el calor necesario para evaporar más del 90 % del agua contenida en el guarapo, para la obtención de la panela.
     
-    p En el siguiente esquema infográfico, identifique las etapas y partes de este proceso:
+    p En el siguiente esquema infográfico, se identifican las etapas y partes de este proceso:
     
     .row.justify-content-center.mb-5
       .col-lg-8.col-12
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.color-acento-botones.mb-2
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/T3/img-6-2.svg')
@@ -127,20 +127,20 @@
     p.mb-5 Seguidamente, se detalla el manejo y el calentamiento de los jugos de la caña:
     
     .row.mt-5
-      .col-8
+      .col-lg-8
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta-verde")
           .row(titulo="Manejo de jugos")
             .col-md-12.mb-4.mb-md-0
-              p.mb-5 Existen varias formas de pasar los jugos por medio de flujos a través de la hornilla; paralelo, contracorriente y mixto, todo esto depende de la tecnología y costumbres regionales.
+              p.mb-0 Existen varias formas de pasar los jugos por medio de flujos a través de la hornilla; paralelo, contracorriente y mixto, todo esto depende de la tecnología y costumbres regionales.
     
           .row(titulo="Calentamiento de jugos")
             .col-md-12.mb-4.mb-md-0
-              p.mb-5 Al terminar la prelimpieza, se obtiene el jugo sin clarificar, el cual pasa directamente al fondo o paila recibidora, a una temperatura ambiente; luego se inicia el calentamiento hasta los 55 °C. Esto permite la aceleración de la velocidad del movimiento del jugo, facilitando la formación de partículas de gran tamaño y densidad, las cuales deben ser removidas por procesos físicos.
+              p.mb-0 Al terminar la prelimpieza, se obtiene el jugo sin clarificar, el cual pasa directamente al fondo o paila recibidora, a una temperatura ambiente; luego se inicia el calentamiento hasta los 55 °C. Esto permite la aceleración de la velocidad del movimiento del jugo, facilitando la formación de partículas de gran tamaño y densidad, las cuales deben ser removidas por procesos físicos.
     
     
-      .col-4
+      .col-lg-4
         figure
-          img(src='@/assets/curso/temas/T3/img-7.svg')
+          img.d-none.d-lg-block(src='@/assets/curso/temas/T3/img-7.svg')
     
     
     
@@ -154,38 +154,38 @@
     p A continuación, se presentan cada una de las actividades que se deben desarrollar para esta fase.
     
     .BGIMG01.p-4.mb-5(data-aos="fade-right")
-      SlyderA(tipo="b")
-        .row.align-items-center.justify-content-between
-          .col-md-6.mb-4.mb-md-0
+      SlyderA.p-1.p-lg-3(tipo="b")
+        .row.align-items-center.justify-content-center
+          .col-lg-7.mb-4.mb-md-0
             h4 Inicio de la clarificación
             p Inicialmente se emplea la paila clarificadora de la hornilla, mediante la coagulación-floculación de las impurezas presentes en el jugo, por efecto combinado de la temperatura, tiempo y acción de los agentes clarificantes.
     
-          .col-md-6
+          .col-lg-5.col-md-10
             figure
               img(src='@/assets/curso/temas/T3/img-8.svg', alt='Texto que describa la imagen')
     
-        .row.align-items-center.justify-content-between
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center
+          .col-lg-7.mb-4.mb-md-0
             h4 Identificación de los clarificantes
             p Los clarificantes se pueden dividir en químicos y naturales. Dentro de estos están: el sulfoclarol o hidrosulfito de sodio (Na2S2O4) conocido como ditionito de sodio o hiposulfito de sodio, también está la sementina, el carbonato de calcio o caliza (CaCO3), óxido de calcio o cal viva (CaO), hidróxido de calcio o cal apagada Ca (OH)2, entre otras. En los naturales hace referencia a las plantas utilizadas para purificar, como la cáscara de balso, raíz de abrojo y la yausabara.
     
-          .col-md-6
+          .col-lg-5.col-md-10
             figure
               img(src='@/assets/curso/temas/T3/img-9.svg', alt='Texto que describa la imagen')
     
     
-        .row.align-items-center.justify-content-between
-          .col-md-6.mb-4.mb-md-0
+        .row.align-items-center.justify-content-center
+          .col-lg-7.mb-4.mb-md-0
             p Las impurezas que flotan, coloquialmente conocidas como cachaza negra, son retiradas manualmente y se depositan en las cachaceras; aquí se hace la remoción, separando los jugos de fondo del recipiente y luego regresan a la paila clarificadora, para continuar el proceso, mientras la cachaza se lleva a la paila cachacera, donde se concentra hasta formar el melote.
     
-          .col-md-6
+          .col-lg-5.col-md-10
             figure
               img(src='@/assets/curso/temas/T3/img-11-2.svg', alt='Texto que describa la imagen')
     
     
-    p.mb-4 En el siguiente esquema, conozca y detalle el proceso de extracción y la forma de aplicación del mucílago:
+    p.mb-4 Se detalla a continuación el proceso de extracción y la forma de aplicación del mucílago:
     
-    figure.mb-5
+    figure.mb-0
       img(src='@/assets/curso/temas/T3/img-12-2.svg', alt='Texto que describa la imagen')
     
     Separador
@@ -193,19 +193,16 @@
     #t_3_3.titulo-segundo.color-acento-contenido.mb-5
       h2 Buenas prácticas de manufactura
     
-    .row
-      .col-lg-12
-        .tarjeta-avatar-b.mb-5
-          .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/T3/img-14.svg')
-          .tarjeta
-            .p-4
-              p.mb-5 Colombia, es un país donde la agricultura es una de las principales fuentes económicas, este sector se ha venido renovando a través de estrategias para optimizar y cualificar los procesos desde el punto de vista normativos y de producción, haciendo énfasis en la manufactura, la salud y seguridad en el trabajo, entre otros.
-              p Las buenas prácticas de manufactura, contribuyen en el sector panelero mediante la mejora continua de la industria a través del trabajo ocupacional y ambiental, que lleva a minimizar dichos riesgos, lo que se refleja en menores costos de producción y fortalece la rentabilidad del producto y la optimización del mismo. (Investigaci et al., 2003).
+    .row.justify-content-center.align-items-center.mb-0
+      .col-lg-3.col-7.col-md-6.mb-4
+        img(src='@/assets/curso/temas/T3/img-14.svg')
+      .col-lg-9.mb-4
+        p.mb-4 Colombia, es un país donde la agricultura es una de las principales fuentes económicas, este sector se ha venido renovando a través de estrategias para optimizar y cualificar los procesos desde el punto de vista normativos y de producción, haciendo énfasis en la manufactura, la salud y seguridad en el trabajo, entre otros.
+        p.mb-0 Las buenas prácticas de manufactura, contribuyen en el sector panelero mediante la mejora continua de la industria a través del trabajo ocupacional y ambiental, que lleva a minimizar dichos riesgos, lo que se refleja en menores costos de producción y fortalece la rentabilidad del producto y la optimización del mismo. (Investigaci et al., 2003).
     
     .row.justify-content-center
       .col-lg-10.col-12
-        .cajon.color-secundario.p-4.mb-5
+        .cajon.color-secundario.p-4.mb-0
           p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
     
 

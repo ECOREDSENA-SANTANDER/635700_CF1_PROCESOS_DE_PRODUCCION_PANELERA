@@ -29,13 +29,12 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Requerimiento técnicos y normativos',
         desarrolloContenidos: true,
@@ -43,14 +42,12 @@ export default {
 
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Procesos fisicoquímicos de la materia prima',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Normativa de los procesos paneleros',
         desarrolloContenidos: true,

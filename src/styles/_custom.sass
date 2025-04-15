@@ -39,8 +39,6 @@
 .mr-3-custom
   margin: 1rem!important;
 
-.mr-custom
-  margin-left: 2rem!important;
 
 .mr-custom-ri
   margin-right: 2rem!important;
@@ -79,10 +77,46 @@
 .cajon.color-secundario
   background: rgba(226, 135, 44, .12)
 
-
-.referencias__item
-  display: flex
-  flex-direction: column
-
 .barra-avance__boton--regresar span 
     color: white !important
+
+
+.lista-ul__vineta:before 
+    content: ''
+    line-height: 1em
+
+.creditos
+  content: url("../assets/template/logo_IE.png")
+  display: flex 
+  margin: auto
+  padding: 5em
+
+
+
+.tabla-a.tabla-peq table
+  min-width: 300px !important
+
+.tabla-a
+  border: 2px solid #D3D3D3
+.white
+  background-color: #fff
+
+
+.tabla-a.tabla-peq table
+  td, th 
+    border: 1px solid #e8e8e8
+    padding: 0.3em
+
+table 
+    border-collapse: separate
+    border-spacing: 0
+    table-layout: fixed
+    width: 100%
+
+
+@media (max-width: 768px) 
+    .slyder-a__bullets__item 
+        width: 11px
+        height: 11px
+        margin: 0px 0.5px
+
