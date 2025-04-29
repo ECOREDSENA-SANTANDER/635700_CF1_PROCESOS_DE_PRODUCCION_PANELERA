@@ -30,26 +30,26 @@
     TabsC.color-acento-contenido.mb-0
       .py-3.py-md-4(titulo="Corte y aponte de la caña ")
           .row.align-items-center.justify-content-around
-            .col-md-4.mb-4.mb-md-0
+            .col-lg-4.col-md-6.col-8.mb-4.mb-md-0
               figure
-                img(src='@/assets/curso/temas/T3/img-1.svg')
-            .col-md-6
+                img.mb-4(src='@/assets/curso/temas/T3/img-1.svg')
+            .col-lg-6
               p El corte se debe realizar cuando la caña está madura. En ese momento, el contenido de azúcares es máximo; de lo contrario, los jugos de una caña inmadura o sobremadurada, pueden alterar la panela. La actividad conocida como aponte, se refiere a la recolección, el transporte hasta el trapiche y el almacenamiento de la caña cosechada; estos son procesos previos antes de la extracción de los jugos.
     
       .py-3.py-md-4(titulo="Extracción de jugos")
         .row.align-items-center.justify-content-around
-          .col-md-4.mb-4.mb-md-0
+          .col-lg-4.col-md-6.col-8.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/T3/img-2.svg')
-          .col-md-6
+              img.mb-4(src='@/assets/curso/temas/T3/img-2.svg')
+          .col-lg-6
             p Es una técnica antigua y se originó de la creatividad natural del ser humano, el proceso ocurre cuando la caña pasa a través de un molino de tres mazas (rodillos), los cuales atraviesan los tallos de la caña y los comprime para obtener el jugo o guarapo crudo, que es el insumo principal, además del bagazo húmedo que se emplea como combustible para la hornilla (Amanda & Marcillo, 2002), (Quezada, 2007).
     
       .py-3.py-md-4(titulo="Pre limpieza de los jugos")
         .row.align-items-center.justify-content-around
-          .col-md-4.mb-4.mb-md-0
+          .col-lg-4.col-md-6.col-8.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/T3/img-3.svg')
-          .col-md-6
+              img.mb-4(src='@/assets/curso/temas/T3/img-3.svg')
+          .col-lg-6
             p La prelimpieza consiste en la eliminación, por medios físicos y temperatura ambiente, del material que sale del molino con el jugo de la caña: tierra, partículas de bagazo, insectos o cera. Se filtra por pozuelos y mallas donde se separan los residuos de gran tamaño, por medio de la sedimentación y floculación. En este paso, se requieren prelimpiadores construidos con ladrillo y revestimiento de cerámica, para facilitar la limpieza y la presencia de microorganismos (también se pueden usar recipientes de acero inoxidable). La prelimpieza debe efectuarse de manera continua y puede utilizar el principio de separación por diferencia de densidad entre las impurezas como lodos, bagazo y arenas, para mejorar el producto final.
     
             p Los pre limpiadores hacen que la fabricación de panela sea de alto valor nutricional, gracias a que carecen de aditivos, lo que lo hace por excelencia un alimento de alta calidad. Entre las ventajas que ofrece este proceso se destacan:
@@ -69,10 +69,10 @@
     
       .py-3.py-md-4(titulo="Limpieza y mantenimiento")
         .row.align-items-center.justify-content-around
-          .col-md-4.mb-4.mb-md-0
+          .col-lg-4.col-md-6.col-8.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/T3/img-4.svg')
-          .col-md-6
+              img.mb-4(src='@/assets/curso/temas/T3/img-4.svg')
+          .col-lg-6
             p La materia prima debe estar limpia, libre de residuos de tierra, restos de contaminantes y material que viene con la caña.
             p Posteriormente, se debe sumergir en una solución de agua con cloro, produciendo el lavado. Todos los equipos requeridos en el proceso de producción panelera, requieren un adecuado mantenimiento e higiene, mínimo cada 6 horas, con el fin de evitar la fermentación de los jugos, evitando el deterioro de la calidad de la panela.
     
@@ -84,9 +84,9 @@
     
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5
       .row.m-0.align-items-center.justify-content-center
-        .col-lg-4.col-6(data-aos='fade-right')
+        .col-lg-4.col-md-4.col-6(data-aos='fade-right')
           figure
-            img(src='@/assets/curso/temas/T3/img-5.svg', style='width:190px; margin: auto')
+            img.mb-4(src='@/assets/curso/temas/T3/img-5.svg', style='width:190px; margin: auto')
         .col-lg-8
           .bloque-texto-a__texto.p-4
             p Los residuos del jugo de la caña, son productos de procesos de clarificación, evaporación y concentración. Generalmente, están hechos de bagazo, bagacillo, cachaza y el aguamiel. A continuación, se presentan cada una de las etapas donde se detalla este proceso y el residuo que se produce del mismo:
@@ -180,13 +180,13 @@
     
           .col-lg-5.col-md-10
             figure
-              img(src='@/assets/curso/temas/T3/img-11-2.svg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/T3/img-11-2.svg', alt='Ilustración del proceso y pasos para la buena clarificación.')
     
     
     p.mb-4 Se detalla a continuación el proceso de extracción y la forma de aplicación del musílago:
     
     figure.mb-0
-      img(src='@/assets/curso/temas/T3/1.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/T3/1.svg', alt='Ilustración el proceso de extracción y la forma de aplicación del musílago.')
     
     Separador
     

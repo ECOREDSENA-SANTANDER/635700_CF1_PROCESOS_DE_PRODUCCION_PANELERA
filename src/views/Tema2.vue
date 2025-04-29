@@ -100,7 +100,7 @@
     
     .tarjeta.tarjeta-amarillo.p-4.mb-5.mr-custom-ri
       .row.align-items-end.justify-content-center(numero="1" titulo="Praesent luctus")
-        .col-lg-8.mb-4.mb-md-0
+        .col-lg-8.mb-2.mb-md-0
           h4.textRed Determinación del Brix terminal
           p.mb-5 Iniciar desde la primera hoja superior, se cuentan hacia abajo ocho hojas, allí se extrae el jugo y se miden los grados Brix.
     
@@ -108,12 +108,12 @@
           p.mb-3 De la parte inferior del tallo, se cuentan de tres a cinco nudos hacia arriba, se extrae jugo y se miden los grados Brix.
           p.mb-5 Con ambos datos se despeja la siguiente ecuación:
     
-          img.col-md-6.mb-4.mb-md-5(src='@/assets/curso/temas/T2/img-10.svg')
+          img.col-md-6.mb-4.mb-md-5(src='@/assets/curso/temas/T2/img-10.svg',alt='Se describe la formula para despejar el indice de madurez. Esta resulta de dividir los grados Brix superior sobre los grados Brix inferior y se multiplica por 100.')
           h4.mb-4.textRed Los datos del índice de madurez se interpretan así:
-          img.mb-4(src='@/assets/curso/temas/T2/img-23-2.svg', style="width:360px")
+          img.mb-4(src='@/assets/curso/temas/T2/img-23-2.svg',alt='Datos de índice de madurez: Menor a 85%: Tierna. 85 al 100%: Madura. Mayor al 100%: Sobremadura.', style="width:360px")
     
     
-        .col-md-5.col-lg-4
+        .col-md-5.col-lg-4.col-7
           figure
             img(src='@/assets/curso/temas/T2/img-12.svg')
     
@@ -123,7 +123,7 @@
       | Corte de caña
     
     .row.justify-content-around.align-items-center
-      .col-lg-3.col-md-7.col-8.mb-4
+      .col-lg-3.col-md-5.col-8.mb-4
         img(src='@/assets/curso/temas/T2/img-14.svg')
       .col-lg-9.mb-4
         p El corte de la caña debe realizarse cuando alcanza la madurez adecuada; esto significa que la concentración de azúcar (sacarosa) y el contenido de sólidos solubles, son elevados. No se recomienda el corte de cañas inmaduras o sobremaduradas, porque el rendimiento es menor e influye negativamente en la panela. (Amanda & Marcillo, 2002)
@@ -308,36 +308,36 @@
     
       .py-3.py-md-4(titulo="Carbohidratos")
         .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/T2/img-19.svg')
-          .col-md-6
+              img.mb-4(src='@/assets/curso/temas/T2/img-19.svg',alt='Ilustra la estructura molecular de la sacarosa.')
+          .col-lg-6
             p También se conocen como sacáridos; son compuestos esenciales de los organismos vivos, de los cuales se obtiene energía para llevar a cabo las funciones vitales del diario vivir. Son la clase de compuestos esenciales con mayor abundancia de moléculas biológicas. El nombre carbohidratos significa, literalmente, #[strong hidratos de carbono] y proviene de su composición química que, para muchos de ellos, es (C·H2O). Estos compuestos están formados por átomos de carbono, hidrógeno y oxígeno, con una característica importante, y es que son solubles en agua.
             p Los carbohidratos se clasifican en: monosacáridos, disacáridos y polisacáridos.
     
       .py-3.py-md-4(titulo="Monosacáridos")
         .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/T2/img-20.svg')
-          .col-md-6
+              img.mb-4(src='@/assets/curso/temas/T2/img-20.svg',alt='Ilustra la estructura molecular de la glucosa y la fructosa.')
+          .col-lg-6
             p.mb-5 Son las unidades básicas de los carbohidratos, no hidrolizables en unidades más pequeñas, como, por ejemplo, la glucosa; es el carbohidrato más abundante en la naturaleza, tiene 6 átomos de carbono y es la molécula para generar energía y el combustible principal para la mayoría de los organismos. La fructosa, es responsable del sabor dulce de muchos frutos.
     
       .py-3.py-md-4(titulo="Disacáridos")
         .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/T2/img-21.svg')
-          .col-md-6
+              img.mb-4(src='@/assets/curso/temas/T2/img-21.svg',alt='Ilustra la estructura molecular de la sacarosa.')
+          .col-lg-6
             p Son estructuras diméricas, formadas por dos moléculas de monosacáridos, que pueden ser iguales o diferentes; estas moléculas se unen por medio de un enlace llamado glucosídico, el cual se puede romper fácilmente; como ejemplo de los disacáridos, encontramos #[strong la sacarosa], que constituye principalmente la dieta de los seres vivos. Tiene una producción que supera los 60 millones de toneladas anuales, procedente de la caña de azúcar, como principal fuente o también de la remolacha.
     
     
       .py-3.py-md-4(titulo="Polisacáridos")
         .row.align-items-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/T2/img-22.svg')
-          .col-md-6
+              img.mb-4(src='@/assets/curso/temas/T2/img-22.svg',alt='Ilustra la composición o estructura molecular de los polisacáridos.')
+          .col-lg-6
             p.mb-5 Están constituidos por gran número de unidades de monosacáridos enlazados de manera covalente. Los polisacáridos desempeñan dos funciones biológicas principales: algunos almacenan energía metabólica como el glucógeno y otros sirven de elementos estructurales a la célula como la celulosa (León, 2008).
     
 
